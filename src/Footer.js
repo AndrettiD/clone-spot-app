@@ -24,10 +24,10 @@ function Footer({ spotify }) {
         playing: r.is_playing,
       });
 
-      // dispatch({
-      //   type: "SET_ITEM",
-      //   item: r.item,
-      // });
+       dispatch({
+         type: "SET_ITEM",
+         item: r.item,
+       });
     });
   }, [spotify]);
 
@@ -54,10 +54,10 @@ function Footer({ spotify }) {
         type: "SET_ITEM",
         item: r.item,
       });
-      // dispatch({
-      //   type: "SET_PLAYING",
-      //   playing: true,
-      // });
+      dispatch({
+         type: "SET_PLAYING",
+         playing: true,
+       });
     });
   };
 
