@@ -5,8 +5,8 @@
     overflow-y: overlay;
     flex: 0.8;
     color: white;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 1));
-    background-color: rgb(91, 87, 115);
+    background: linear-gradient(transparent, rgb(44, 30, 111));
+    background-color: rgb(45, 88, 181);
   }
   
   .body::-webkit-scrollbar {
